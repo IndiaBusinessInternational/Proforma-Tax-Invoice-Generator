@@ -1,0 +1,32 @@
+{
+  "name": "IBI Proforma & Tax Invoice Generator",
+  "short_name": "IBI Invoice",
+  "description": "Create professional GST-ready Proforma Invoices, Tax Invoices and Bills of Supply for India Business International \u2014 UPI QR pay, signature, one-tap PDF.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
+  "lang": "en-IN",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
