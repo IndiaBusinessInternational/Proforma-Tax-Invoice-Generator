@@ -1,5 +1,8 @@
-IBI Proforma & Tax Invoice Generator — v2.6
+IBI Proforma & Tax Invoice Generator — v2.7
 ============================================
+v2.7: Fixed the editor hint blocks (class="f hint") that inherited the field
+flex-column layout and scattered every bold word onto its own line; they now
+flow as normal one-paragraph text.
 v2.6: "Save to Drive" button — uploads the current order as a PDF straight into
 the Google Drive "IBI Website Orders" folder (via an Apps Script web app; plus an
 "Open Drive folder" item in the menu). Also enlarged the compact Tax Invoice /
@@ -32,7 +35,7 @@ Deploy as a static site (e.g. GitHub Pages). Put ALL these files in the
 SAME folder / repo root so the PWA, icons and social preview resolve:
 
   index.html               <- the app (open this)
-  service-worker.js        <- offline cache (cache: ibi-pinv-v2.6)
+  service-worker.js        <- offline cache (cache: ibi-pinv-v2.7)
   manifest.webmanifest     <- PWA metadata
   preview.png              <- Open Graph / Twitter preview image
   icon-192.png
