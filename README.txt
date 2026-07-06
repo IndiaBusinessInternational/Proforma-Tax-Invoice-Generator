@@ -1,5 +1,9 @@
-IBI Proforma & Tax Invoice Generator — v2.2
+IBI Proforma & Tax Invoice Generator — v2.3
 ============================================
+v2.3: Print fix — output is now exactly ONE A4 page (no blank/extra 2nd page)
+for the full invoice, Bill of Supply and the Label + Invoice sheet. The trailing
+Saved/Data/Backup panels are hidden when printing and the printable height is
+capped just under 297mm so sub-pixel rounding can't spill to a second page.
 v2.2: Draggable splitter between the editor (data) and the live preview (print)
 columns — drag the centre grip to resize left/right, double-click to reset. The
 chosen width is saved per browser. Collapses to a single column on narrow screens.
@@ -17,7 +21,7 @@ Deploy as a static site (e.g. GitHub Pages). Put ALL these files in the
 SAME folder / repo root so the PWA, icons and social preview resolve:
 
   index.html               <- the app (open this)
-  service-worker.js        <- offline cache (cache: ibi-pinv-v2.2)
+  service-worker.js        <- offline cache (cache: ibi-pinv-v2.3)
   manifest.webmanifest     <- PWA metadata
   preview.png              <- Open Graph / Twitter preview image
   icon-192.png
