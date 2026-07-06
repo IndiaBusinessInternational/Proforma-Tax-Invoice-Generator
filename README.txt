@@ -1,9 +1,12 @@
-IBI Proforma & Tax Invoice Generator — v2.5
+IBI Proforma & Tax Invoice Generator — v2.6
 ============================================
+v2.6: "Save to Drive" button — uploads the current order as a PDF straight into
+the Google Drive "IBI Website Orders" folder (via an Apps Script web app; plus an
+"Open Drive folder" item in the menu). Also enlarged the compact Tax Invoice /
+Bill of Supply text on the Label+Invoice sheet to match the label's readability.
 v2.5: Invoice/Bill number now auto-advances to the next sequential number on
 "Save invoice" (zero-padding preserved, e.g. .../001 -> .../002); still editable
-by hand. (Google Drive "IBI Website Orders" folder created; one-click upload
-button is a follow-up pending the Apps Script endpoint.)
+by hand.
 v2.4: Shrunk the shipping-label barcode to ~1/3 of its previous size
 (compact, centred) instead of spanning the full label width. Added a Package
 dimensions (L x W x H) field, shown in the label's order-details strip
@@ -29,7 +32,7 @@ Deploy as a static site (e.g. GitHub Pages). Put ALL these files in the
 SAME folder / repo root so the PWA, icons and social preview resolve:
 
   index.html               <- the app (open this)
-  service-worker.js        <- offline cache (cache: ibi-pinv-v2.5)
+  service-worker.js        <- offline cache (cache: ibi-pinv-v2.6)
   manifest.webmanifest     <- PWA metadata
   preview.png              <- Open Graph / Twitter preview image
   icon-192.png
