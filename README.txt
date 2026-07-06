@@ -1,5 +1,9 @@
-IBI Proforma & Tax Invoice Generator — v2.0
+IBI Proforma & Tax Invoice Generator — v2.1
 ============================================
+v2.1: Enlarged the shipping-label text to courier/industry-standard sizes and
+restructured it to fill the top half — big centred Deliver-To block, an order-
+details strip (Order/Date/Weight/Courier/AWB), a larger barcode, and a Return/
+From + Contents footer.
 v2.0: Added "Label + Invoice" print — a shipping label (Deliver-To / Return
 address, Prepaid/COD badge, Code-128 barcode of AWB / order / invoice no.,
 weight + contents) on the TOP half of an A4 sheet, and a compact Tax Invoice /
@@ -10,7 +14,7 @@ Deploy as a static site (e.g. GitHub Pages). Put ALL these files in the
 SAME folder / repo root so the PWA, icons and social preview resolve:
 
   index.html               <- the app (open this)
-  service-worker.js        <- offline cache (cache: ibi-pinv-v2.0)
+  service-worker.js        <- offline cache (cache: ibi-pinv-v2.1)
   manifest.webmanifest     <- PWA metadata
   preview.png              <- Open Graph / Twitter preview image
   icon-192.png
