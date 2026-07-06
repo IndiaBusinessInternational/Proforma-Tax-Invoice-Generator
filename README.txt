@@ -1,5 +1,8 @@
-IBI Proforma & Tax Invoice Generator — v2.1
+IBI Proforma & Tax Invoice Generator — v2.2
 ============================================
+v2.2: Draggable splitter between the editor (data) and the live preview (print)
+columns — drag the centre grip to resize left/right, double-click to reset. The
+chosen width is saved per browser. Collapses to a single column on narrow screens.
 v2.1: Enlarged the shipping-label text to courier/industry-standard sizes and
 restructured it to fill the top half — big centred Deliver-To block, an order-
 details strip (Order/Date/Weight/Courier/AWB), a larger barcode, and a Return/
@@ -14,7 +17,7 @@ Deploy as a static site (e.g. GitHub Pages). Put ALL these files in the
 SAME folder / repo root so the PWA, icons and social preview resolve:
 
   index.html               <- the app (open this)
-  service-worker.js        <- offline cache (cache: ibi-pinv-v2.1)
+  service-worker.js        <- offline cache (cache: ibi-pinv-v2.2)
   manifest.webmanifest     <- PWA metadata
   preview.png              <- Open Graph / Twitter preview image
   icon-192.png
