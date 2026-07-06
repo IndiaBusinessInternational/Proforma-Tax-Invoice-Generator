@@ -1,5 +1,9 @@
-IBI Proforma & Tax Invoice Generator — v2.3
+IBI Proforma & Tax Invoice Generator — v2.4
 ============================================
+v2.4: Shrunk the shipping-label barcode to ~1/3 of its previous size
+(compact, centred) instead of spanning the full label width. Added a Package
+dimensions (L x W x H) field, shown in the label's order-details strip
+(Order / Date / Weight / Dims / Courier / AWB).
 v2.3: Print fix — output is now exactly ONE A4 page (no blank/extra 2nd page)
 for the full invoice, Bill of Supply and the Label + Invoice sheet. The trailing
 Saved/Data/Backup panels are hidden when printing and the printable height is
@@ -21,7 +25,7 @@ Deploy as a static site (e.g. GitHub Pages). Put ALL these files in the
 SAME folder / repo root so the PWA, icons and social preview resolve:
 
   index.html               <- the app (open this)
-  service-worker.js        <- offline cache (cache: ibi-pinv-v2.3)
+  service-worker.js        <- offline cache (cache: ibi-pinv-v2.4)
   manifest.webmanifest     <- PWA metadata
   preview.png              <- Open Graph / Twitter preview image
   icon-192.png
