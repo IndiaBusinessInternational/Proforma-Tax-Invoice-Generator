@@ -1,5 +1,9 @@
-IBI Proforma & Tax Invoice Generator — v2.7
+IBI Proforma & Tax Invoice Generator — v2.9
 ============================================
+v2.9 (11 Oct 2026): phones edge to edge — on a phone (<=640px) the panels run the
+full screen width with 10px inner side padding (app bar 8px); the page can never be
+wider than the screen. Spacing only, no font sizes changed.
+v2.8: OG url fix (ptig domain) + absolute preview image URLs.
 v2.7: Fixed the editor hint blocks (class="f hint") that inherited the field
 flex-column layout and scattered every bold word onto its own line; they now
 flow as normal one-paragraph text.
@@ -35,7 +39,7 @@ Deploy as a static site (e.g. GitHub Pages). Put ALL these files in the
 SAME folder / repo root so the PWA, icons and social preview resolve:
 
   index.html               <- the app (open this)
-  service-worker.js        <- offline cache (cache: ibi-pinv-v2.7)
+  service-worker.js        <- offline cache (cache: ibi-pinv-v2.9)
   manifest.webmanifest     <- PWA metadata
   preview.png              <- Open Graph / Twitter preview image
   icon-192.png
