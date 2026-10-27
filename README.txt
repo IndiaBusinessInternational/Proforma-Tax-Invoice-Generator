@@ -1,5 +1,6 @@
-IBI Proforma & Tax Invoice Generator — v2.9.2
+IBI Proforma & Tax Invoice Generator — v2.9.3
 ============================================
+v2.9.3 (27 Oct 2026): Share icon in the app bar is white (it was dark on the black bar).
 v2.9.2 (27 Oct 2026): WhatsApp link preview uses a 1200x630 JPEG banner (og-banner.jpg,
 image/jpeg, width/height tags); new "Share this app" button in the app bar (ibi-share.js).
 v2.9.1 (11 Oct 2026): long words break with overflow-wrap: break-word, not anywhere
@@ -43,7 +44,7 @@ Deploy as a static site (e.g. GitHub Pages). Put ALL these files in the
 SAME folder / repo root so the PWA, icons and social preview resolve:
 
   index.html               <- the app (open this)
-  service-worker.js        <- offline cache (cache: ibi-pinv-v2.9.2)
+  service-worker.js        <- offline cache (cache: ibi-pinv-v2.9.3)
   manifest.webmanifest     <- PWA metadata
   preview.png              <- Open Graph / Twitter preview image
   icon-192.png
