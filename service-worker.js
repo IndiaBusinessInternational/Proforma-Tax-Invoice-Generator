@@ -1,7 +1,7 @@
 /* IBI Proforma & Tax Invoice Generator — Service Worker */
-const CACHE = "ibi-pinv-v2.9.1";
+const CACHE = "ibi-pinv-v2.9.2";
 const SHELL = ["./","./index.html","./manifest.webmanifest","./preview.png",
-  "./icon-192.png","./icon-512.png","./icon-maskable-512.png"];
+  "./icon-192.png","./icon-512.png","./icon-maskable-512.png","./ibi-share.js","./og-banner.jpg"];
 
 self.addEventListener("install", e => {
   self.skipWaiting();
